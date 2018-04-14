@@ -1,0 +1,19 @@
+[package]
+name = "RustExperiment"
+version = "0.1.0"
+authors = ["Victor Blanco <vblanco20-1@hotmail.com>"]
+
+[dependencies]
+ggez = "0.4"
+sdl2 = "*"
+lazy_static = "1.0"
+slog = "2.0"
+slog-term = "2.0"
+slog-async = "2.0"
+failure = "0.1"
+specs = "0.10"
+specs-derive = "0.1"
+collision = "*"
+ncollide = "*"
+nalgebra = "*"
+rand = "*"
